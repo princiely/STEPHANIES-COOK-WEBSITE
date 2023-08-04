@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+body{
+    font-family: "poppins";
+}
+
+.navigation {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+
+ .primarybutton:hover{
+    cursor: pointer;
+    color: black;
+    transition:all 0.3s;
+    background-color: white;
+ }.mainheader{
+    font-size: 18px;
+    font-weight: bolder;
+    /* border: 1px solid red; */
+    border-radius: 30px;
+    background-color: rgb(246,254,255);
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.listitems{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: end;
+    gap: 30px;
+    list-style-type: none;
+    justify-content: center;
+    
+}
+
+.navigationlinks{
+    text-decoration: none;
+    color: black;
+    transition:all 0.3s;
+}
+
+.navigationlinks:hover{
+    /* text-decoration: underline; */
+    color: red;
+}
+
+.primarybutton{
+    background-color: rgb(241,90,79);
+    color: white;
+    /* padding: 10px 20px 10px 20px; */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+}
+ /* img{
+    height: 100px;
+    width: 100px;
+    align-items: center;
+ } */
+ /* navbar ended here */
+/* hero section started here */
+#home{
+    /* border: 1px solid green; */
+    display: flex;
+    width: 100%;
+    /* border-radius: 40px; */
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(225,229,232);
+}
+.title{
+    color:rgb(4,36,82);
+    
+}
+.subtitle{
+    color: rgb(4,36,82);
+}
+.paragraph{
+    color: rgb(4,36,82);
+}
+
+.learnmore{
+    padding: 10px 20px 10px;
+    border: none;
+    background-color: rgb(241,90,79);
+    color: white;
+    border-radius: 30px; 
+}
+.hireme{
+    padding: 10px 20px 10px;
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+}
+.herotext{
+    gap: 10px;
+}
+.herobuttoncontainer:hover{
+    /* text-decoration: underline; */
+    color: red;
+
+}
+#about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text{
+    width: 50%;
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 80px;
+    text-align: justify;
+    
+} 
+.intro{
+    margin: 20px 8px 20px;
+    font-size: 50px;
+}
+
+.card-1{
+    background-color: gray;
+    border-radius: 30px;
+    height: fit-content;
+    width: fit-content;
+}
+.card-2{
+    background-color: gray;
+    border-radius: 30px;
+    height: fit-content;
+    width: fit-content;
+}
+.card-3{
+    background-color: gray;
+    border-radius: 30px;
+    height: fit-content;
+    width: fit-content;
+}
+.card-4{
+    background-color: gray;
+    border-radius: 30px;
+    height:fit-content;
+    width: fit-content;
+}
+
+.major{
+    display: flex;
+    justify-content: space-around;
+    gap: 0px;
+}
+.pic1{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+button{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 30px;
+    background-color: rgb(241,90,79);;
+    color: white;
+    border: none;
+}
+.pic2{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+.pic3{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+.pic4{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+.service{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.comic-zone2{
+    font-family: sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+.comiczone3{
+    font-family: sans-serif;
+    text-align: center;
+}
+.comiczone4{
+    font-family: sans-serif;
+    text-align: center;
+}
+.comiczone1{
+    font-family: sans-serif;
+    text-align: center;
+}
+.contactme{
+    text-align: center;
+    background-color: gray;
+    margin-top: 50px;
+    height: 250px;
+    
+}
+.bi{
+    font-size: 40px;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+.sendamessage{
+    color: ;
+}
+
+
